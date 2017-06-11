@@ -9,9 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
+    var str = String()
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        str = "Shikha"
+        print(str)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
